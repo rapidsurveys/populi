@@ -1,0 +1,41 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# populi: Utilities and Tools in R to Extract, Process, and Structure Population Datasets from the World Population Prospects of the United Nations Department of Economic and Social Affairs
+
+<!-- badges: start -->
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+<!-- badges: end -->
+
+The Population Division of the Department of Economic and Social Affairs
+of the United Nations Secretariat prepares regular revisions of the
+World Population Prospects - the official United Nations population
+estimates and projections. This package provides utilities and tools to
+extract, process, and structure these population datasets for use in R.
+
+## Installation
+
+<!--
+You can install the released version of populi from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("populi")
+```
+
+And the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("rapidsurveys/populi")
+```
+-->
+
+You can install the development version of `populi` from
+[GitHub](https://github.com/populi) with:
+
+``` r
+if(!require(remotes)) install.packages("remotes")
+remotes::install_github("rapidsurveys/populi")
+```
