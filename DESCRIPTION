@@ -1,0 +1,19 @@
+Package: populi
+Type: Package
+Title: Utilities and Tools in R to Extract, Process, and Structure Population
+    Datasets from the World Population Prospects of the United Nations
+    Department of Economic and Social Affairs
+Version: 0.1.0
+Authors@R: person(given = "Ernest", family = "Guevarra",
+    email = "ernest@guevarra.io", role = c("aut", "cre"),
+    comment = c(ORCID = "0000-0002-4887-4415"))
+Description: The Population Division of the Department of Economic and Social
+    Affairs of the United Nations Secretariat prepares regular revisions of the
+    World Population Prospects - the official United Nations population
+    estimates and projections. This package provides utilities and tools to 
+    extract, process, and structure these population datasets for use in R.
+License: GPL-3
+Encoding: UTF-8
+Language: en-gb
+LazyData: true
+RoxygenNote: 7.1.1
